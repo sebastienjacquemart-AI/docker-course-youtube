@@ -26,3 +26,21 @@ In a container repository (public/private)
 ## Main Docker Commands
 ## Debugging a container
 ## 
+
+Video in question: https://www.youtube.com/watch?v=pTFZFxd4hOI
+
+## What is docker?
+A platform for consistently building, running and shipping applications (each application with its dependencies run inside an isolated environment: application can easily run on multiple machines; application can easily be set up and removed)
+
+## Virtual machines vs containers
+A container is isolated environment for running an application. A virtual machine is an abstraction of a machine (f.e. running windows on mac). Hypervisors (f.e. VirtualBox) are used to manage vitual machines. So, run application in isolation in a virtual machine. On the same physical machine, different virtual machine running different applications with different dependencies. But a lot of problems with virtual machine: mainly, separate OS, resource intensive. 
+
+Containers are more lightweight: no separate OS, less hardware resources.
+
+## Architecture of Docker
+Docker uses a client-server architecture. The client component talks to the server component using a REST API. The server takes care of building and running docker containers. Containers share the kernel of the OS. Kernel manages applications and hardware resources. Every OS has its own kernel with each kernel its own API. 
+
+## Installing Docker
+## Development workflow
+
+
